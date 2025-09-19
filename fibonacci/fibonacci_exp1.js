@@ -27,10 +27,6 @@ else{
   fibonacciValue = secondAddingValue + firstAddingValue;
   firstAddingValue = secondAddingValue;
   secondAddingValue = fibonacciValue ;
-
-//   fibonacciValue = addingValue + firstValue;
-//   firstValue = addingValue;
-//   addingValue = fibonacciValue ;
   
   console.log("The fibonacci number for ",inputForLimit,"is",fibonacciValue);
 }
